@@ -24,8 +24,6 @@ function draw() {
   drawTheCircle(x,y,d,true)
   for(let i = 0; i < 5; i++){
     drawTheCircle(x+(d/2)*i,y,d,true)
-  }
-  for(let i = 0; i < 5; i++){
     drawTheCircle(x+(d/2)*i,y-d,d,false)
   }
   // drawTheCircle(x-(d/2)*1,y,d,true)
